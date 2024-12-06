@@ -15,7 +15,7 @@ export default function Home() {
           className="rounded-full"
         />
         <h1 className="text-4xl font-bold mt-4 animate-fadeIn">
-          Hey!! I'm Ray
+          Hey!! Im Ray
         </h1>
         <h3 className="text-xl mt-2 animate-fadeIn delay-300">
           Im just an engineering student.
