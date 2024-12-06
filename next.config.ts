@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    domains: ['cdn.discordapp.com'], // Replace with your domain
+  },
 };
 
 export default nextConfig;
