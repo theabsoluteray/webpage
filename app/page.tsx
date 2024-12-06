@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="relative bg-gray-900 text-white flex flex-col items-center min-h-screen overflow-hidden">
-      {/* Top Section */}
+  
       <div className="flex flex-col items-center mt-10">
         <Image
           src="https://cdn.discordapp.com/attachments/1268230743788752937/1314527019173675008/ee6d75ddd8c5925e05ffc863038183f5.png?ex=67541830&is=6752c6b0&hm=561434e8e132df84180790386c9655da0b611f49c84ef5cd0aa0d2eef6feabe8&"
@@ -18,11 +18,11 @@ export default function Home() {
           Hey!! I'm Ray
         </h1>
         <h3 className="text-xl mt-2 animate-fadeIn delay-300">
-          I'm just an engineering student :0
+          Im just an engineering student.
         </h3>
       </div>
 
-      {/* Tech Stack Section */}
+  
       <div className="flex flex-col items-center my-10">
         <h4 className="text-5xl font-semibold mb-4">Tech Stack</h4>
         <div className="flex flex-wrap justify-center gap-8 text-6xl">
@@ -37,7 +37,6 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Bottom Section with Social Media Icons */}
       <div className="absolute bottom-10 flex space-x-4">
         <a
           href="https://www.instagram.com/being.ray04/"

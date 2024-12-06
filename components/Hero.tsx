@@ -15,7 +15,6 @@ const Hero = () => {
     </div>
     <div className="flex justify-center">
       <div className="max-w-[89vw]">
-        <h2 className='uppercase tracking-width text-xs text-center text-white max-w-80'>hey ! im ray</h2>
       </div>
     </div>
     </div>
