@@ -8,7 +8,7 @@ export default function Home() {
   
       <div className="flex flex-col items-center mt-10">
         <Image
-          src="https://cdn.discordapp.com/attachments/1268230743788752937/1314527019173675008/ee6d75ddd8c5925e05ffc863038183f5.png?ex=67541830&is=6752c6b0&hm=561434e8e132df84180790386c9655da0b611f49c84ef5cd0aa0d2eef6feabe8&"
+          src="https://cdn.discordapp.com/avatars/1161404005277253652/f0ecc0cd8a1f2f727a80a717f042be2a.png?size=1024"
           alt="Top Image"
           width={300}
           height={300}
