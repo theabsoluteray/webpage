@@ -63,7 +63,7 @@ export default function Home() {
           <FaDiscord className="text-3xl" />
         </a>
         <a
-          href="https://github.com/theabsoluterayS"
+          href="https://github.com/theabsoluteray"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-gray-800 hover:bg-gray-900 text-white p-4 rounded-full transition-transform transform hover:scale-110"
