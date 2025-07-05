@@ -56,7 +56,7 @@ const Hero = () => {
             className="rounded-full mb-4 border-4 border-white"
           />
           <h1 className="text-4xl sm:text-5xl font-bold text-center animate-fadeIn">
-            Hey!! I'm Ray
+            Hey!! I&apos;m Ray
           </h1>
           <h3 className="text-lg sm:text-xl mt-2 text-gray-300 animate-fadeIn delay-300">
             Just an engineering student who loves building things.
@@ -125,7 +125,7 @@ const Hero = () => {
               <div className="relative z-10">
                 <h2 className="text-2xl font-bold mb-2">About Me</h2>
                 <p className="text-gray-300">
-                  I'm Ray, a dev who loves Linux, music, and building full-stack apps with a touch of flair.
+                  I&apos;m Ray, a dev who loves Linux, music, and building full-stack apps with a touch of flair.
                 </p>
               </div>
             </div>
