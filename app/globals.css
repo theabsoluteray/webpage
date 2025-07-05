@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer base {
+  html{
+     scroll-behavior: smooth;
+  }
   :root {
     --background: 0 0% 100%;
     --foreground: 240 10% 3.9%;
@@ -87,3 +90,7 @@
     background: linear-gradient(90deg, #161a31 0%, #06091f 100%);
   }
 }
+
+.icons {
+  display: block;
+   }
