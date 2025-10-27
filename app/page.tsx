@@ -49,7 +49,7 @@ const Hero = () => {
         <div className="relative z-10 flex flex-col items-center px-4">
           {/* Avatar + Intro */}
           <Image
-            src="https://media.discordapp.net/attachments/1383931755697799289/1391062263183708160/efc4a05579dd220b51e97f952a7b3537.png?ex=686a8730&is=686935b0&hm=cfd40edb31749000a9b8f0c92423b83e38f48685bfc2a82556385f006e8a9221&=&format=webp&quality=lossless&width=900&height=900"
+            src="https://avatars.githubusercontent.com/u/120208761"
             alt="Ray Avatar"
             width={200}
             height={200}
@@ -77,17 +77,15 @@ const Hero = () => {
               <div className="relative mt-6">
                 <div className="absolute inset-0 blur-2xl opacity-30 bg-gradient-to-r from-sky-400 via-blue-500 to-indigo-500 rounded-full w-full h-full scale-110 z-0" />
                 <div className="relative z-10 flex flex-wrap justify-center gap-6 sm:gap-8 text-4xl sm:text-5xl">
-                  <SiNextdotjs title="Next.js" className="text-white hover:text-gray-300 transition-colors" />
+                
                   <FaReact title="React" className="text-cyan-400 hover:text-cyan-300 transition-colors" />
-                  <SiTailwindcss title="TailwindCSS" className="text-sky-400 hover:text-sky-300 transition-colors" />
+              
                   <FaNodeJs title="Node.js" className="text-green-500 hover:text-green-400 transition-colors" />
                   <SiExpress title="Express.js" className="text-gray-200 hover:text-white transition-colors" />
                   <SiPostgresql title="PostgreSQL" className="text-blue-500 hover:text-blue-400 transition-colors" />
                   <SiSupabase title="Supabase" className="text-green-600 hover:text-green-500 transition-colors" />
                   <SiTypescript title="TypeScript" className="text-blue-400 hover:text-blue-300 transition-colors" />
-                  <SiJavascript title="JavaScript" className="text-yellow-400 hover:text-yellow-300 transition-colors" />
-                  <SiHtml5 title="HTML5" className="text-orange-500 hover:text-orange-400 transition-colors" />
-                  <SiCss3 title="CSS3" className="text-blue-500 hover:text-blue-400 transition-colors" />
+                  
                 </div>
               </div>
             </div>
@@ -110,8 +108,9 @@ const Hero = () => {
                   <FaLinux title="Linux" className="text-yellow-600 hover:text-yellow-500 transition-colors" />
                   <SiFlask title="Flask" className="text-gray-300 hover:text-gray-200 transition-colors" />
                   <FaPython title="Python" className="text-yellow-500 hover:text-yellow-400 transition-colors" />
-                  <SiC title="C" className="text-blue-500 hover:text-blue-400 transition-colors" />
-                  <SiCplusplus title="C++" className="text-blue-700 hover:text-blue-600 transition-colors" />
+                  <SiJavascript title="JavaScript" className="text-yellow-400 hover:text-yellow-300 transition-colors" />
+                  <SiHtml5 title="HTML5" className="text-orange-500 hover:text-orange-400 transition-colors" />
+                  <SiTailwindcss title="TailwindCSS" className="text-sky-400 hover:text-sky-300 transition-colors" /><SiCss3 title="CSS3" className="text-blue-500 hover:text-blue-400 transition-colors" />
                 </div>
               </div>
             </div>
