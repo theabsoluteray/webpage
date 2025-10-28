@@ -1,24 +1,20 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
+import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { ThemeProvider } from "./provider";
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
+
+const geistSans = Geist({
   variable: "--font-geist-sans",
-  weight: "100 900",
+  subsets: ["latin"],
 });
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
+
+const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
-  weight: "100 900",
+  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
-  title: "ray :)",
-  description: "Thanks for visting  :0",
-  icons: {
-    icon: "/favicon.ico",
-  },
+  title: "/usr/bin/ray",
+  description: "just a random dev",
 };
 
 export default function RootLayout({
@@ -31,15 +27,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-         <ThemeProvider
-            attribute="class"
-            defaultTheme="dark"
-            enableSystem
-            disableTransitionOnChange
-            >
-{children}
-          </ThemeProvider>
-
+        {children}
       </body>
     </html>
   );
