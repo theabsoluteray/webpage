@@ -15,7 +15,7 @@ export default function Home() {
         <nav className="fixed top-4 left-1/2 -translate-x-1/2 w-[90%] max-w-4xl backdrop-blur-md bg-background/30 border border-border/40 rounded-2xl shadow-lg">
           <div className="px-6 py-4">
             <div className="flex items-center justify-between">
-              <h1 className="text-2xl font-bold">Your Brand</h1>
+              <h1 className="text-2xl font-bold">Portfolio</h1>
 
               <div className="hidden md:flex gap-6">
                 <a href="#" className="hover:text-primary transition-colors">
@@ -77,10 +77,9 @@ export default function Home() {
         {/* Hero Section */}
         <main className="container mx-auto px-4 py-20 pt-32">
           <div className="max-w-3xl mx-auto text-center space-y-6">
-            <h2 className="text-5xl font-bold tracking-tight">Interactive Particle Network</h2>
+            <h2 className="text-5xl font-bold tracking-tight">Hi , I'm ray</h2>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              Move your mouse around to interact with the animated particle web. Watch as the glowing nodes respond to
-              your movements and create dynamic connections.
+              
             </p>
             <div className="flex gap-4 justify-center pt-4">
               <button className="px-6 py-3 bg-primary text-primary-foreground rounded-lg hover:opacity-90 transition-opacity">
