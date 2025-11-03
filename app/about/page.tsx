@@ -23,7 +23,7 @@ export default function About() {
         <nav className="fixed top-4 left-1/2 -translate-x-1/2 w-[90%] max-w-4xl backdrop-blur-md bg-background/30 border border-border/40 rounded-2xl shadow-lg">
           <div className="px-6 py-4">
             <div className="flex items-center justify-between">
-              <h1 className="text-2xl font-bold">Coode4fun</h1>
+              <h1 className="text-2xl font-bold">Code4fun</h1>
 
               <div className="hidden md:flex gap-6">
                 <a href="/" className="hover:text-primary transition-colors">

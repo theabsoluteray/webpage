@@ -71,7 +71,7 @@ export default function ProjectsPage() {
           <div className="px-6 py-4">
             <div className="flex items-center justify-between">
               <a href="/" className="text-2xl font-bold hover:text-primary transition-colors">
-                Your Brand
+                Code4fun
               </a>
 
               <div className="hidden md:flex gap-6">
