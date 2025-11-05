@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "/usr/bin/ray",
   description: "just a random dev",
-  icons: [  icon : "icon.png"],
+  icons: { icon : "icon.png"},
 };
 
 export default function RootLayout({
