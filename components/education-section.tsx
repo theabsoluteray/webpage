@@ -5,38 +5,13 @@ const education = [
     id: 1,
     type: "degree",
     title: "Bachelor of Science in Computer Science",
-    institution: "University of Technology",
-    year: "2020 - 2024",
-    description: "Specialized in Software Engineering and Web Development",
+    institution: "Sri sai college of engineering and technology",
+    year: "2020 - 2027",
+    description: "Specialization in ai and machine learning",
     icon: BookOpen,
   },
-  {
-    id: 2,
-    type: "certification",
-    title: "Full Stack Web Development",
-    institution: "Udemy",
-    year: "2023",
-    description: "Comprehensive course covering React, Node.js, and MongoDB",
-    icon: Award,
-  },
-  {
-    id: 3,
-    type: "certification",
-    title: "AWS Certified Solutions Architect",
-    institution: "Amazon Web Services",
-    year: "2023",
-    description: "Professional level certification in cloud architecture",
-    icon: Award,
-  },
-  {
-    id: 4,
-    type: "certification",
-    title: "Google Cloud Professional Data Engineer",
-    institution: "Google Cloud",
-    year: "2022",
-    description: "Expertise in designing and managing data solutions",
-    icon: Award,
-  },
+ 
+ 
 ]
 
 export function EducationSection() {

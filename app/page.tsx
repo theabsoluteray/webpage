@@ -5,6 +5,9 @@ import { FeaturedProjects } from "@/components/featured-projects"
 import { EducationSection } from "@/components/education-section"
 import { useState } from "react"
 import { Menu, X } from "lucide-react"
+import Image from "next/image";
+
+import ray from "@/public/ray.png";
 
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -13,13 +16,12 @@ export default function Home() {
     <div className="min-h-screen">
       <BackgroundAnimation />
 
-      <div className="relative z-10">
+      <div className="relative z-50">
         {/* Navbar */}
         <nav className="fixed top-4 left-1/2 -translate-x-1/2 w-[90%] max-w-4xl backdrop-blur-md bg-background/30 border border-border/40 rounded-2xl shadow-lg z-50">
           <div className="px-6 py-4">
             <div className="flex items-center justify-between">
-              <h1 className="text-2xl font-bold">Code4fun</h1>
-
+             <h1 className="text-2xl font-bold">Code4fun</h1>
               <div className="hidden md:flex gap-6">
                 <a href="/" className="hover:text-primary transition-colors">
                   Home
