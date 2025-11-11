@@ -70,7 +70,7 @@ export default function Contact() {
 
       <div className="relative z-10">
         {/* Navbar */}
-        <nav className="fixed top-4 left-1/2 -translate-x-1/2 w-[90%] max-w-4xl backdrop-blur-md bg-background/30 border border-border/40 rounded-2xl shadow-lg">
+        <nav className="z-50 fixed top-4 left-1/2 -translate-x-1/2 w-[90%] max-w-4xl backdrop-blur-md bg-background/30 border border-border/40 rounded-2xl shadow-lg">
           <div className="px-6 py-4">
             <div className="flex items-center justify-between">
               <h1 className="text-2xl font-bold">Code4fun</h1>

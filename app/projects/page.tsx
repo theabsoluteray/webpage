@@ -2,7 +2,8 @@
 
 import { BackgroundAnimation } from "@/components/background-animation"
 import { ExternalLink, Github } from "lucide-react"
-
+import { useState } from "react"
+import { Menu, X, Download } from "lucide-react"
 const projects = [
   {
     id: 1,
@@ -61,18 +62,17 @@ const projects = [
 ]
 
 export default function ProjectsPage() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
   return (
     <div className="min-h-screen">
       <BackgroundAnimation />
 
       <div className="relative z-10">
         {/* Navbar */}
-        <nav className="fixed top-4 left-1/2 -translate-x-1/2 w-[90%] max-w-4xl backdrop-blur-md bg-background/30 border border-border/40 rounded-2xl shadow-lg z-50">
+        <nav className="z-50 fixed top-4 left-1/2 -translate-x-1/2 w-[90%] max-w-4xl backdrop-blur-md bg-background/30 border border-border/40 rounded-2xl shadow-lg">
           <div className="px-6 py-4">
             <div className="flex items-center justify-between">
-              <a href="/" className="text-2xl font-bold hover:text-primary transition-colors">
-                Code4fun
-              </a>
+              <h1 className="text-2xl font-bold">Code4fun</h1>
 
               <div className="hidden md:flex gap-6">
                 <a href="/" className="hover:text-primary transition-colors">
@@ -84,14 +84,58 @@ export default function ProjectsPage() {
                 <a href="/skills" className="hover:text-primary transition-colors">
                   Skills
                 </a>
-                <a href="/projects" className="text-primary transition-colors font-semibold">
+                <a href="/projects" className="hover:text-primary transition-colors">
                   Projects
                 </a>
                 <a href="/contact" className="hover:text-primary transition-colors">
                   Contact
                 </a>
               </div>
+
+              <button
+                className="md:hidden p-2 hover:bg-accent rounded-lg transition-colors"
+                onClick={() => setIsMenuOpen(!isMenuOpen)}
+                aria-label="Toggle menu"
+              >
+                {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+              </button>
             </div>
+
+            {isMenuOpen && (
+              <div className="md:hidden mt-4 pt-4 border-t border-border/40 flex flex-col gap-3">
+                <a href="/" className="hover:text-primary transition-colors py-2" onClick={() => setIsMenuOpen(false)}>
+                  Home
+                </a>
+                <a
+                  href="/about"
+                  className="hover:text-primary transition-colors py-2"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  About
+                </a>
+                <a
+                  href="/skills"
+                  className="hover:text-primary transition-colors py-2"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  Skills
+                </a>
+                <a
+                  href="/projects"
+                  className="hover:text-primary transition-colors py-2"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  Projects
+                </a>
+                <a
+                  href="/contact"
+                  className="hover:text-primary transition-colors py-2"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  Contact
+                </a>
+              </div>
+            )}
           </div>
         </nav>
 
