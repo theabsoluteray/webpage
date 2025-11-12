@@ -4,7 +4,7 @@ const education = [
   {
     id: 1,
     type: "degree",
-    title: "Bachelor of Science in Computer Science",
+    title: "Bachelor of Technology in Computer Science and Engineering",
     institution: "Sri sai college of engineering and technology",
     year: "2020 - 2027",
     description: "Specialization in ai and machine learning",
