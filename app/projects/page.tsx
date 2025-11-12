@@ -7,58 +7,14 @@ import { Menu, X, Download } from "lucide-react"
 const projects = [
   {
     id: 1,
-    title: "E-Commerce Platform",
-    description: "A full-stack e-commerce solution with real-time inventory management and payment integration.",
-    image: "/ecommerce-dashboard.png",
-    tags: ["Next.js", "React", "Stripe", "PostgreSQL"],
+    title: "",
+    description: "",
+    image: "",
+    tags: [],
     link: "#",
     github: "#",
   },
-  {
-    id: 2,
-    title: "AI Chat Application",
-    description: "Real-time chat application powered by AI with natural language processing and sentiment analysis.",
-    image: "/ai-chat-interface.png",
-    tags: ["React", "Node.js", "WebSocket", "OpenAI"],
-    link: "#",
-    github: "#",
-  },
-  {
-    id: 3,
-    title: "Task Management System",
-    description: "Collaborative task management tool with real-time updates, team collaboration, and analytics.",
-    image: "/task-management-dashboard.png",
-    tags: ["Next.js", "Supabase", "Tailwind", "TypeScript"],
-    link: "#",
-    github: "#",
-  },
-  {
-    id: 4,
-    title: "Data Visualization Dashboard",
-    description: "Interactive dashboard for visualizing complex datasets with real-time updates and custom charts.",
-    image: "/data-visualization-dashboard.png",
-    tags: ["React", "D3.js", "Chart.js", "API"],
-    link: "#",
-    github: "#",
-  },
-  {
-    id: 5,
-    title: "Mobile Fitness Tracker",
-    description: "Cross-platform fitness tracking app with workout logging, progress analytics, and social features.",
-    image: "/fitness-tracker-mobile-app.jpg",
-    tags: ["React Native", "Firebase", "Redux", "Expo"],
-    link: "#",
-    github: "#",
-  },
-  {
-    id: 6,
-    title: "Content Management System",
-    description: "Headless CMS with powerful content management, version control, and multi-language support.",
-    image: "/content-management-system.png",
-    tags: ["Next.js", "GraphQL", "MongoDB", "Vercel"],
-    link: "#",
-    github: "#",
-  },
+  
 ]
 
 export default function ProjectsPage() {
