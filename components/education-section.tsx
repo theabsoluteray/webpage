@@ -6,7 +6,7 @@ const education = [
     type: "degree",
     title: "Bachelor of Technology in Computer Science and Engineering",
     institution: "Sri sai college of engineering and technology",
-    year: "2020 - 2027",
+    year: "2023 - 2027",
     description: "Specialization in ai and machine learning",
     icon: BookOpen,
   },
@@ -37,7 +37,7 @@ export function EducationSection() {
                   </div>
                   <div className="flex-1">
                     <h3 className="text-lg font-bold mb-1">{item.title}</h3>
-                    <p className="text-sm text-primary mb-2">{item.institution}</p>
+                    <p className="text-sm text-white mb-2">{item.institution}</p>
                     <p className="text-xs text-muted-foreground mb-2">{item.year}</p>
                     <p className="text-sm text-muted-foreground">{item.description}</p>
                   </div>
