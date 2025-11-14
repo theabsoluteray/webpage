@@ -7,7 +7,7 @@ const featuredProjects = [
     title: "Edu Home",
     description: "AI-powered chat interface for personalized learning experiences and instant doubt resolution.",
     image: "https://media.discordapp.net/attachments/1375952821140193352/1437857265599123600/image.png?ex=6914c46e&is=691372ee&hm=672c4f21e09e91764be8bf0ff149a44af57863014806ead2e0a6c4ea63e31970&=&format=webp&quality=lossless&width=1658&height=810",
-    tags: ["Next", "Node.js", "WebSocket", "OpenAI"],
+    tags: ["Next.js", "Node.js", "Groq"],
     link: "https://eduhome-one.vercel.app",
     github: "/https://github.com/theabsoluteray/eduhome",
   },
@@ -16,7 +16,7 @@ const featuredProjects = [
     title: "Fakebuster",
     description: "Detects the Ai generated images and text using pretrained models.",
     image: "https://media.discordapp.net/attachments/1375952821140193352/1437858193060532387/Screenshot_2025-11-11_224858.png?ex=6914c54b&is=691373cb&hm=4671db8131e5f70d292a836f66d20bc7cc2f4452aaf9ede6f92e9333c7d7de07&=&format=webp&quality=lossless&width=1658&height=810",
-    tags: ["Next.js", "Supabase", "Tailwind", "TypeScript"],
+    tags: ["Next.js", "Tailwind", "TypeScript","HuggingFace"],
     link: "https://fakebuster-rose.vercel.app/",
     github: "https://github.com/theabsoluteray/fakebuster",
   },
@@ -50,7 +50,7 @@ export function FeaturedProjects() {
                   {project.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full border border-primary/20 group-hover:bg-primary/20 transition-colors"
+                      className="px-2 py-1 text-xs bg-primary/100 text-white rounded-full border border-primary/20 group-hover:bg-primary/100 transition-colors"
                     >
                       {tag}
                     </span>
