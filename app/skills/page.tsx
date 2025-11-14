@@ -3,6 +3,7 @@
 import { BackgroundAnimation } from "@/components/background-animation"
 import { useState } from "react"
 import { Menu, X } from "lucide-react"
+import Link from "next/link"
 import {
   SiGit,
   SiLinux,
@@ -51,27 +52,26 @@ export default function Skills() {
 
       <div className="relative z-10">
         {/* Navbar */}
-        <nav className="z-50 fixed top-4 left-1/2 -translate-x-1/2 w-[90%] max-w-4xl backdrop-blur-md bg-background/30 border border-border/40 rounded-2xl shadow-lg">
+        <nav className="fixed top-4 left-1/2 -translate-x-1/2 w-[90%] max-w-4xl backdrop-blur-md bg-background/30 border border-border/40 rounded-2xl shadow-lg z-50">
           <div className="px-6 py-4">
             <div className="flex items-center justify-between">
-              <h1 className="text-2xl font-bold">Code4fun</h1>
-
+             <h1 className="text-2xl font-bold">Code4fun</h1>
               <div className="hidden md:flex gap-6">
-                <a href="/" className="hover:text-primary transition-colors">
+                <Link href="/" className="hover:text-primary transition-colors">
                   Home
-                </a>
-                <a href="/about" className="hover:text-primary transition-colors">
+                </Link>
+                <Link href="/about" className="hover:text-primary transition-colors">
                   About
-                </a>
-                <a href="/skills" className="hover:text-primary transition-colors">
+                </Link>
+                <Link href="/skills" className="hover:text-primary transition-colors">
                   Skills
-                </a>
-                <a href="/projects" className="hover:text-primary transition-colors">
+                </Link>
+                <Link href="/projects" className="hover:text-primary transition-colors">
                   Projects
-                </a>
-                <a href="/contact" className="hover:text-primary transition-colors">
+                </Link>
+                <Link href="/contact" className="hover:text-primary transition-colors">
                   Contact
-                </a>
+                </Link>
               </div>
 
               <button
@@ -85,37 +85,37 @@ export default function Skills() {
 
             {isMenuOpen && (
               <div className="md:hidden mt-4 pt-4 border-t border-border/40 flex flex-col gap-3">
-                <a href="/" className="hover:text-primary transition-colors py-2" onClick={() => setIsMenuOpen(false)}>
+                <Link href="/" className="hover:text-primary transition-colors py-2" onClick={() => setIsMenuOpen(false)}>
                   Home
-                </a>
-                <a
+                </Link>
+                <Link
                   href="/about"
                   className="hover:text-primary transition-colors py-2"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   About
-                </a>
-                <a
+                </Link>
+                <Link
                   href="/skills"
                   className="hover:text-primary transition-colors py-2"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Skills
-                </a>
-                <a
+                </Link>
+                <Link
                   href="/projects"
                   className="hover:text-primary transition-colors py-2"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Projects
-                </a>
-                <a
+                </Link>
+                <Link
                   href="/contact"
                   className="hover:text-primary transition-colors py-2"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Contact
-                </a>
+                </Link>
               </div>
             )}
           </div>
