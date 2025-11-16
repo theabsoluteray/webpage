@@ -8,14 +8,40 @@ import { Menu, X, Download } from "lucide-react"
 const projects = [
   {
     id: 1,
-    title: "",
-    description: "",
-    image: "",
-    tags: [],
-    link: "#",
-    github: "#",
+    title: "EduHome",
+    description: "Ai powered educational platform offering personalized learning experiences and resources for students and educators.",
+    image: "https://media.discordapp.net/attachments/1375952821140193352/1437857265599123600/image.png?ex=691a0a6e&is=6918b8ee&hm=c4f0b8dbe3e4d5d6630ffbee45638e8d6d7444831206cdbc7a9577bcbad74cc2&=&format=webp&quality=lossless&width=1658&height=810",
+    tags: ["Next.js", "Node.js", "Groq"],
+    link: "https://eduhome-one.vercel.app",
+    github: "https://github.com/theabsoluteray/eduhome",
   },
-  
+  {
+    id: 2,
+    title: "Fakebuster",
+    description: "Detects the Ai generated images and text using pretrained models.", 
+    image: "https://media.discordapp.net/attachments/1375952821140193352/1437858193060532387/Screenshot_2025-11-11_224858.png?ex=691a0b4b&is=6918b9cb&hm=8b182b9fa15c773586b525c2b5da7cfaa8acbd9dde7706331f4019a36c62a2fd&=&format=webp&quality=lossless&width=1658&height=810",
+    tags: ["Next.js", "Tailwind", "TypeScript","HuggingFace"],
+    link: "https://fakebuster-rose.vercel.app/",
+    github: "https://github.com/theabsoluteray/fakebuster",
+  },
+  {
+    id: 3,
+    title : "Automated content publication system",
+    description : "A system that automatically downloads and uploads content on instagram ",
+    image : "https://media.discordapp.net/attachments/1436640801592709194/1439339211818795038/bmUuc3Zn.png?ex=691a2899&is=6918d719&hm=feca4a0d0d2565ce0b39c5af5ded186f565977261f163de6a77b9b0531b0330b&=&format=webp&quality=lossless&width=1075&height=716",
+    tags : ["Python", "Selenium", "Instagram API","Openai"],
+    link : "",
+    github :"https://github.com/theabsoluteray/acp",
+  },
+  {
+    id: 4,
+    title : "Flux music",
+    description : "A music streaming web application with personalized playlists and social features. [under development]",
+    image : "https://media.discordapp.net/attachments/1370958073102991463/1409531360422531152/image.png?ex=6919d2e0&is=69188160&hm=03d76eb9538256c5c37e0769e410c3532f8be594622f8077047b57c82e682e95&=&format=webp&quality=lossless&width=1440&height=810",
+    tags : ["Next.js", "Tailwind CSS", "FFMPEG","YT-DLP","python","Flask"],
+    link : "",
+    github :"https://github.com/theabsoluteray/flux-music",
+  },
 ]
 
 export default function ProjectsPage() {
